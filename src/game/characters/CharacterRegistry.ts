@@ -1,0 +1,68 @@
+import { CharacterDef } from '../types';
+
+export const CHARACTER_REGISTRY: Record<string, CharacterDef> = {
+  kaelen_voss: {
+    id: 'kaelen_voss',
+    name: 'Kaelen Voss',
+    callsign: 'Vanguard V-01',
+    role: 'Assault',
+    baseHealth: 100,
+    baseShield: 100,
+    speedMultiplier: 1.0,
+    jumpMultiplier: 1.0,
+    description: 'Frontline combat specialist equipped with tactical kinetic kinetic armor. Excels in adaptive medium-range firefights.',
+    skins: [
+      { id: 'skin_voss_default', name: 'Standard Issue', primaryColor: '#1e293b', accentColor: '#38bdf8', glowColor: '#0ea5e9', priceCredits: 0, requiredLevel: 1 },
+      { id: 'skin_voss_carbon', name: 'Obsidian Strike', primaryColor: '#090d16', accentColor: '#94a3b8', glowColor: '#e2e8f0', priceCredits: 800, requiredLevel: 2 },
+      { id: 'skin_voss_solar', name: 'Solar Apex', primaryColor: '#451a03', accentColor: '#f97316', glowColor: '#fbbf24', priceCredits: 1500, requiredLevel: 5 },
+    ],
+  },
+  nyx_zephyr: {
+    id: 'nyx_zephyr',
+    name: 'Nyx Zephyr',
+    callsign: 'Spectre-9',
+    role: 'Recon',
+    baseHealth: 85,
+    baseShield: 85,
+    speedMultiplier: 1.15,
+    jumpMultiplier: 1.12,
+    description: 'Ultra-light stealth operative built for swift flank maneuvers, high verticality, and rapid target isolation.',
+    skins: [
+      { id: 'skin_nyx_default', name: 'Shadow Weave', primaryColor: '#172554', accentColor: '#818cf8', glowColor: '#6366f1', priceCredits: 0, requiredLevel: 1 },
+      { id: 'skin_nyx_neon', name: 'Cyber Phantom', primaryColor: '#042f2e', accentColor: '#2dd4bf', glowColor: '#14b8a6', priceCredits: 900, requiredLevel: 3 },
+      { id: 'skin_nyx_glacier', name: 'Glacial Prism', primaryColor: '#082f49', accentColor: '#38bdf8', glowColor: '#bae6fd', priceCredits: 1800, requiredLevel: 6 },
+    ],
+  },
+  varek_goliath: {
+    id: 'varek_goliath',
+    name: 'Varek Goliath',
+    callsign: 'Titan Ironclad',
+    role: 'Juggernaut',
+    baseHealth: 135,
+    baseShield: 115,
+    speedMultiplier: 0.9,
+    jumpMultiplier: 0.92,
+    description: 'Heavy shock trooper with layered magnetic shielding and concussive shock dampeners to hold critical chokepoints.',
+    skins: [
+      { id: 'skin_varek_default', name: 'Iron Forged', primaryColor: '#27272a', accentColor: '#f59e0b', glowColor: '#d97706', priceCredits: 0, requiredLevel: 1 },
+      { id: 'skin_varek_crimson', name: 'Crimson Dread', primaryColor: '#450a0a', accentColor: '#ef4444', glowColor: '#dc2626', priceCredits: 1100, requiredLevel: 4 },
+      { id: 'skin_varek_reactor', name: 'Bio-Reactor Toxic', primaryColor: '#14532d', accentColor: '#4ade80', glowColor: '#22c55e', priceCredits: 2200, requiredLevel: 7 },
+    ],
+  },
+  lyra_sol: {
+    id: 'lyra_sol',
+    name: 'Lyra Sol',
+    callsign: 'Chronos-X',
+    role: 'Engineer',
+    baseHealth: 95,
+    baseShield: 105,
+    speedMultiplier: 1.04,
+    jumpMultiplier: 1.05,
+    description: 'Combat technologist utilizing micro-ion capacitors for balanced shield retention and agile positional re-alignment.',
+    skins: [
+      { id: 'skin_lyra_default', name: 'Quantum Core', primaryColor: '#2e1065', accentColor: '#c084fc', glowColor: '#a855f7', priceCredits: 0, requiredLevel: 1 },
+      { id: 'skin_lyra_nova', name: 'Supernova Gold', primaryColor: '#3b0764', accentColor: '#facc15', glowColor: '#eab308', priceCredits: 1300, requiredLevel: 4 },
+      { id: 'skin_lyra_matrix', name: 'Deep Circuit', primaryColor: '#0f172a', accentColor: '#06b6d4', glowColor: '#22d3ee', priceCredits: 2500, requiredLevel: 8 },
+    ],
+  },
+};

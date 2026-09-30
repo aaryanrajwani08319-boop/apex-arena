@@ -1,0 +1,7 @@
+{
+  "name": "Apex Arena: Cyberstrike 3D",
+  "description": "High-octane competitive 3D multiplayer arena combat game featuring original sci-fi combatants, fictional energy weapons, smart AI bots, dynamic map objectives, and progression.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
